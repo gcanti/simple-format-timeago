@@ -2,9 +2,9 @@
   "name": "simple-format-timeago",
   "version": "0.0.1",
   "description": "A simple clean way to format intervals with Javascript",
-  "main": "lib/index.js",
+  "main": "index.js",
   "files": [
-    "lib"
+    "index.js"
   ],
   "scripts": {
     "lint": "eslint src test",

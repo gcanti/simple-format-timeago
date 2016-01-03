@@ -21,7 +21,7 @@ module.exports = function getConfig(config) {
         preLoaders: [
           {
             test: /\.js$/,
-            include: path.resolve('src/'),
+            include: path.resolve('index.js'),
             loader: 'isparta'
           }
         ]
