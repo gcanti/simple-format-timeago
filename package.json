@@ -1,0 +1,47 @@
+{
+  "name": "simple-format-timeago",
+  "version": "0.0.1",
+  "description": "A simple clean way to format intervals with Javascript",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "eslint src test",
+    "test": "karma start",
+    "test:node": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gcanti/simple-format-timeago.git"
+  },
+  "author": "Giulio Canti <giulio.canti@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gcanti/simple-format-timeago/issues"
+  },
+  "homepage": "https://github.com/gcanti/simple-format-timeago",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "eslint": "1.10.3",
+    "isparta-loader": "1.0.0",
+    "karma": "0.13.16",
+    "karma-chrome-launcher": "0.2.2",
+    "karma-coverage": "0.5.3",
+    "karma-firefox-launcher": "0.1.7",
+    "karma-tap": "1.0.3",
+    "karma-webpack": "1.7.0",
+    "tape": "4.4.0",
+    "webpack": "1.12.9"
+  },
+  "tags": [
+    "format",
+    "timeago"
+  ],
+  "keywords": [
+    "format",
+    "timeago"
+  ]
+}
